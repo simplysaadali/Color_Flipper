@@ -127,7 +127,7 @@ npx serve .
 
 ---
 
-## 📱 Responsive Design
+## Responsive Design
 
 The layout adapts across breakpoints so it stays usable on tablets and phones:
 

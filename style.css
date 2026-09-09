@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    background-color: grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+    background-color: black;
+    padding: 30px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 23px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#left {
+    position: absolute;
+    left: 70px;
+}
+
+#name {
+    font-size: 35px;
+}
+
+#name:hover{
+    text-decoration: none;
+}
+
+#midlle {
+    display: flex;
+    gap: 30px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(27, 212, 27);
+}
+
+#color-change{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttons{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+button{
+    width: 100px;
+    height: 45px;
+    /* background-color: green; */
+    border: none;
+    border-radius: 25px;
+}
+
+#start{
+    background-color: green;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+#start:hover{
+    box-shadow: 4px 4px 10px rgba(4, 240, 51, 0.3);
+    transform: translateY(-2px);
+    transition: 1 ease;
+}
+
+#stop{
+    background-color: rgb(122, 11, 11);
+    cursor: pointer;
+    font-size: 17px;
+}
+
+#stop:hover{
+    box-shadow: 4px 4px 10px rgba(255, 30, 0, 0.3);
+    transform: translateY(-2px);
+    transition: 1 ease;
+}

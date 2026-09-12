@@ -147,13 +147,3 @@ The layout adapts across breakpoints so it stays usable on tablets and phones:
 *(Contributions welcome — see below!)*
 
 ---
-
-## Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/amazing-thing`)
-3. Commit your changes (`git commit -m "Add amazing thing"`)
-4. Push to the branch (`git push origin feature/amazing-thing`)
-5. Open a Pull Request
